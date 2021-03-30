@@ -16,17 +16,6 @@ matrix:
     # Linting
     - python: 3.6
       env: TOXENV=flake8
-    # CPython 2.7
-    - python: 2.7
-      env: TOXENV=py27-base
-    - python: 2.7
-      env: TOXENV=py27-cryptography-only
-    - python: 2.7
-      env: TOXENV=py27-pycryptodome-norsa
-    - python: 2.7
-      env: TOXENV=py27-pycrypto-norsa
-    - python: 2.7
-      env: TOXENV=py27-compatibility
     # CPython 3.5
     - python: 3.5
       env: TOXENV=py35-base
@@ -82,17 +71,6 @@ matrix:
       env: TOXENV=py39-pycrypto-norsa
     - python: 3.9-dev
       env: TOXENV=py39-compatibility
-    # PyPy 2.7
-    - python: pypy2
-      env: TOXENV=pypy-base
-    - python: pypy2
-      env: TOXENV=pypy-cryptography-only
-    - python: pypy2
-      env: TOXENV=pypy-pycryptodome-norsa
-    - python: pypy2
-      env: TOXENV=pypy-pycrypto-norsa
-    - python: pypy2
-      env: TOXENV=pypy-compatibility
     # PyPy 3.x
     - python: pypy3
       env: TOXENV=pypy-base
